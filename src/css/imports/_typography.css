@@ -17,8 +17,8 @@ body {
   font-weight: var(--body-font-weight);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(--off-white);
-  background-image:url(../img/bg.png)  no-repeat center fixed;
+  /*background-color: var(--off-white);*/
+  background-color:cornflowerblue;
  }
 
 p {
