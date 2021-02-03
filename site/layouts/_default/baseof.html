@@ -1,7 +1,9 @@
 <!doctype html>
 <html lang="{{ $.Site.Language.Lang }}">
   {{ partial "head" . }}
-  <body class="sans-serif">
+  <body class="sans-serif" style={{
+    backgroundImage: image && `url(${image})`
+  }}>
 
     {{ block "header" . }}{{ partial "nav" . }}{{end}}
 
