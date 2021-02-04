@@ -20,6 +20,11 @@ export default class Jumbotron extends React.Component {
           </div>
         </div>
     </div>*/}
+    <div class="w-80 ml2 mr2">
+      <div class="login-form">
+        
+      </div>
+    </div>
     </div>;
   }
 }
